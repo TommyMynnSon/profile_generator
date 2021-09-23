@@ -46,15 +46,15 @@ rl.question(questions[0], name => {
             details.sport = sport;
 
             rl.question(questions[6], superpower => {
-              details.superpower = superpower
+              details.superpower = superpower;
 
               console.log(`\n${details.name}'s Profile:\n- Likes ${details.activity} while listening to ${details.musicForActivity}\n- Favourite meal is ${details.meal} and favourite thing to eat for ${details.meal} is ${details.dishForMeal}\n- Favourite sport is ${details.sport}\n- Superpower is ${details.superpower}`);
 
               rl.close();
-            })
-          })
-        })
-      })
-    })
-  })
+            });
+          });
+        });
+      });
+    });
+  });
 });
